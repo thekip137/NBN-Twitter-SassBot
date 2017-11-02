@@ -14,5 +14,7 @@ Future Functions
 Improvements needed
 - [ ] Use the Tweepy Streamer object so the bot can pull new tweets constantly instead of being run from a cron job periodically 
 - [ ] Add more zingers to the sassList (ongoing)
+- [ ] Be able to tweet pictures to NBN Co
+
 
 It's pretty obvious that this is not a serious bot, feel free to use it purely as a speed complainer but there are much better options out there (that also don't target just NBN Co) This was born out of frustration/ something to do with my limited Python knowledge 
