@@ -24,7 +24,7 @@ def choose_speedtest_message(downspeed, upspeed):
     message = random.choice(message_list)
     message = message.format(downspeed,upspeed,downspeed)
     print(message)
-    #tweet_textonly(message)
+    tweet_textonly(message)
     return
 
 def speed_test():
@@ -50,9 +50,12 @@ def choose_bantz():
        message_list = read_list('sassList')
        message = random.choice(message_list)
        print(message)
-       #tweet_textonly(message)
+       tweet_textonly(message)
        return
 
-
-choose_speedtest_message(23,67)
+def speed_complain():
+    speeds= speed_test()
+    if ((speeds[0]/CONSTANT_PAYDOWN)<70):
+       choose_speedtest_message(speeds[0], speeds[1])
+    return 
 
