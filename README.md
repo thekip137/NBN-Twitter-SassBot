@@ -1,7 +1,7 @@
 # NBN Twitter Shade Throwing Bot
 This twitter bot puts a different spin on "Speed Complainer bots" (bots that tweet at your ISP if your internet connection is slower than you pay for) there is a good one by [James Atkinson](https://github.com/james-atkinson/speedcomplainer).
 
-This bot tests your internet connection every hour and tweets at your ISP if the download speed is below 70% of what you pay for. Along with this, the bot also throws shade at NBN Co every day, picking a message randomly from a list ("sassList")
+This bot tests your internet connection every 3 hours and tweets at your ISP if the download speed is below 70% of what you pay for. Along with this, the bot also throws shade at NBN Co every day, picking a message randomly from a list ("sassList")
 
 Currently the bot:
 * Tests internet connection and complains about slow speeds if needed
